@@ -1,0 +1,54 @@
+/*NB: альтернатива - Roboto*/
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(../fonts/OpenSansCondLight.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(../fonts/OpenSansCondBold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Cond Light Italic'), local('OpenSans-CondensedLightItalic'), url(../fonts/OpenSansCondItalic.woff) format('woff');
+}
+
+html, button, input, select, textarea, .pure-g [class *="pure-u"] {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* ---> Do not delete this comment (Fonts) <--- 
+*/
+
+/*======================================================================
+=            Import all your .scss files, order is very important
+
+	(The file which is not imported will not be include in final build )
+
+	CSS - All the css files will be loaded in the order they appear 
+		in the app/css directory
+========================================================================*/
+/*
+  To use bootstrap-sass-official run:
+  bower install --save bootstrap-sass-official
+
+  Then uncomment the two lines below:
+*/
+.client span.fa {
+    width: 16px;
+}
+
+.thumbnail {
+    box-sizing: border-box;
+    padding: 4px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+}
+.pure-form-aligned .pure-control-group input:first-of-type {    
+    margin: 0px 0.6em 0px 0px;
+}
